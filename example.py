@@ -68,8 +68,14 @@ with mlflow.start_run():
     mlflow.log_metric("mae", mae)
 
     # For remote server only (Dagshub)
-    remote_server_uri = "https://dagshub.com/Chamindu77/MLflow-Basic-Operation.mlflow"
+    # remote_server_uri = "https://dagshub.com/Chamindu77/MLflow-Basic-Operation.mlflow"
+    # mlflow.set_tracking_uri(remote_server_uri)
+
+    # For remote server only (AWS)
+    remote_server_uri = "http://ec2-51-20-108-7.eu-north-1.compute.amazonaws.com:5000/"
     mlflow.set_tracking_uri(remote_server_uri)
+
+
 
     tracking_url_type_store = urlparse(mlflow.get_tracking_uri()). scheme
     # Model registry does not work with file store

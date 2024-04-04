@@ -18,5 +18,9 @@ export MLFLOW_TRACKING_PASSWORD=c24513b61e51f0adedbfcd6d4702a8a8cfd2c4a8
 
 ...
 
+bucket s3 : S3/mlflow-buc23
+
+export mlflow tracking uri : http://ec2-51-20-108-7.eu-north-1.compute.amazonaws.com:5000/
+
 
 

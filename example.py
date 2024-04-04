@@ -72,9 +72,8 @@ with mlflow.start_run():
     # mlflow.set_tracking_uri(remote_server_uri)
 
     # For remote server only (AWS)
-    remote_server_uri = "http://ec2-51-20-108-7.eu-north-1.compute.amazonaws.com:5000/"
+    remote_server_uri = "http://ec2-13-49-226-96.eu-north-1.compute.amazonaws.com:5000/"
     mlflow.set_tracking_uri(remote_server_uri)
-
 
 
     tracking_url_type_store = urlparse(mlflow.get_tracking_uri()). scheme

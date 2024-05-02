@@ -2,15 +2,14 @@
 
 ## For Dagshub:
 
-MLFLOW_TRACKING_URI=https://dagshub.com/Chamindu77/MLflow-Basic-Operation.mlflow \
+MLFLOW_TRACKING_URI=https:
 MLFLOW_TRACKING_USERNAME=
 MLFLOW_TRACKING_PASSWORD=
 
 
 ...bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/Chamindu77/MLflow-Basic-Operation.mlflow
-
+export MLFLOW_TRACKING_URI=https:
 export MLFLOW_TRACKING_USERNAME=
 
 export MLFLOW_TRACKING_PASSWORD=
